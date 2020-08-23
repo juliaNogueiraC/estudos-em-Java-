@@ -1,35 +1,3 @@
-//“ficha”: código, nome, e-mail e telefone 
-/** Menu Principal
- 1. Cadastrar cliente 
- 2. Listar clientes 
- 3. Abrir conta 
- , deve ser solicitado o código do cliente
- , que deve ser pesquisado no sistema e, assim,
-  permitir a criação da conta com o número e o saldo inicial informado pelo usuário. 
-
- 4. Efetuar depósito 
-deve-se solicitar o número da conta e o valor a ser depositado.
- Se a conta não estiver cadastrada, 
-deverá ser exibida uma mensagem correspondente e voltar ao menu.
- Se a conta existir, o saldo deve ser atualizado; 
-
-
- 5. Efetuar saque 
- deve-se solicitar o número da conta e valor a ser sacado. Se a conta não estiver cadastrada, 
- deverá ser exibida uma mensagem ao usuário e voltar ao menu. Se a conta existir,
-  o programa deve verificar se o saldo é suficiente para o valor do saque. 
-  Se o saldo for suficiente, realizar o saque, atualizar o saldo e voltar ao menu.
-   Caso contrário, mostrar uma mensagem de saldo insuficiente e voltar ao menu; 
-
-
- 6. Relatório de contas
-  O relatório de contas deve listar, para cada conta cadastrada,
-   o número da conta, o nome e o telefone do cliente e o respectivo saldo; 
-
- 7. Finalizar o programa **/
-
-
-
 public class Cliente{
 
      private String nome;
